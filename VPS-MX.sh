@@ -258,7 +258,7 @@ echo 'echo -e "\t\033[91m  \ \ / /| |_) \___ \ _____| |\/| |\  /  " '>> .bashrc
 echo 'echo -e "\t\033[91m   \ V / |  __/ ___) |_____| |  | |/  \  " '>> .bashrc
 echo 'echo -e "\t\033[91m    \_/  |_|   |____/      |_|  |_/_/\_\ " '>> .bashrc
 echo 'echo "" '>> .bashrc
-echo 'mess1="$(less /etc/VPS-MX/.txt)" ' >> .bashrc
+echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'echo -e "\t\033[92mRESELLER : $mess1 "'>> .bashrc
 echo 'echo "" '>> .bashrc                                               
@@ -299,7 +299,7 @@ verificar_arq () {
 [[ ! -d ${SCPfrm} ]] && mkdir ${SCPfrm}
 [[ ! -d ${SCPinst} ]] && mkdir ${SCPinst}
 case $1 in
-"menu"|".txt")ARQ="${SCPdir}/";; #Menu
+"menu"|"message.txt")ARQ="${SCPdir}/";; #Menu
 "usercodes")ARQ="${SCPusr}/";; #Panel SSRR
 "C-SSR.sh")ARQ="${SCPinst}/";; #Instalacao
 "openssh.sh")ARQ="${SCPinst}/";; #Instalacao
