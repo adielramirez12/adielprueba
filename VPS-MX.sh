@@ -373,7 +373,7 @@ msg -bar2
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
 Key="qraKatsil/33?030ce55?7dff/8888:%05+@%?+08?+91%@"
-REQUEST=$(echo $Adiel|$PUTO)
+REQUEST=$(echo $Kalix1|$PUTO)
 echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Files: "
