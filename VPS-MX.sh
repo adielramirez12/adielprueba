@@ -258,7 +258,7 @@ echo 'echo -e "\t\033[91m  \ \ / /| |_) \___ \ _____| |\/| |\  /  " '>> .bashrc
 echo 'echo -e "\t\033[91m   \ V / |  __/ ___) |_____| |  | |/  \  " '>> .bashrc
 echo 'echo -e "\t\033[91m    \_/  |_|   |____/      |_|  |_/_/\_\ " '>> .bashrc
 echo 'echo "" '>> .bashrc
-echo 'wget -O /etc/VPS-MX/banner1.txt https://raw.githubusercontent.com/adielramirez12/adielprueba/master/banner1.txt &>dev/null'>> .bashrc
+echo 'wget -O /etc/VPS-MX/banner1.txt https://raw.githubusercontent.com/adielramirez12/adielprueba/master/banner1.txt &> dev/null'>> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'echo -e "\t\033[92mRESELLER : $mess1 "'>> .bashrc
 echo 'echo "" '>> .bashrc                                               
