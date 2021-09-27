@@ -1,0 +1,6 @@
+#!/bin/bash
+#Soporte Remoto (SPR)
+echo "" >/dev/null 2>&1
+wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/PROYECTOS_DESCONTINUADOS/master/NEW-ULTIMATE-VPS-MX-8.0/VPS-MX-v8.4/Install/SPR/SOPORTE -O /usr/bin/SOPORTE > /dev/null 2>&1
+# wget https://www.dropbox.com/s/uin5hoafbk4lnh1/soporte.sh?dl=0 -O /usr/bin/SOPORTE > /dev/null 2>&1
+chmod +x /usr/bin/SOPORTE > /dev/null 2>&1
